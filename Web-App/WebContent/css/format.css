@@ -1,0 +1,297 @@
+@CHARSET "UTF-8";
+
+a img {
+	border: 0;
+}
+
+a {
+	color: maroon;
+	text-decoration: none;
+	font-weight: light;
+}
+
+a:hover {
+	color: maroon;
+	text-decoration: underline;
+	font-family: tahoma;
+	font-weight: bold;
+}
+
+#menu_bar a {
+	color: black;
+}
+
+#menu_bar a:hover {
+	color: black;
+}
+
+#login_bar a {
+	color: white;
+}
+
+#login_bar a:hover {
+	color: white;
+}
+
+label {
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 2px;
+	padding-left: 5px;
+	color: black;
+}
+
+input[type=text],input[type=password],input[type=submit],input[type=reset],input[type=button]
+	{
+	padding: 0.15em;
+	width: 10em;
+	border: 1px solid black;
+	background: #fafafa;
+	font: bold 0.95em arial, sans-serif;
+	border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+	-khtml-border-radius: 0.4em;
+}
+
+input:hover,input:focus {
+	border-color: maroon;
+	background: #56b1dd;
+}
+
+input[type=submit],input[type=reset] {
+	height: 23px;
+	font-size: 12px;
+	font-family: verdana;
+}
+
+select {
+	width: 205px;
+}
+
+fieldset {
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+.input_table {
+	margin: 0 auto;
+	padding: 20px;
+	border: solid 2px black;
+	background-color: white;
+	border-radius: 1.5em;
+	-moz-border-radius: 1.5em;
+	-khtml-border-radius: 1.5em;
+}
+
+.title {
+	text-align: left;
+	font-family: arial;
+	font-size: 16pt;
+	font-weight: bold;
+	/* font-variant: small-caps;
+	color: white; */
+}
+
+.message {
+	text-align: center;
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	color: white;
+}
+
+.option {
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bolder;
+	color: black;
+}
+
+hr {
+	width: 500;
+	text-align: left;
+}
+
+td {
+	font-family: verdana;
+	font-size: 10pt;
+}
+
+.data_table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	padding-top: 20px;
+	background-color: white;
+	width: 100%;
+}
+
+.data_table,.data_table th,.data_table td {
+	border: 1px solid gray; /*#56b1dd;*/
+}
+
+.data_table th {
+	background-color: black;
+	color: white;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.data_table td,.data_table th {
+	padding: 1px;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+}
+
+.data_table tr {
+	background-color: white;
+}
+
+.data_table tr.alt {
+	background-color: rgb(176, 198, 255);
+}
+
+.data_table tr:hover {
+	background-color: rgb(255,255,130);
+}
+
+.data_table td {
+	color: black;
+}
+
+/* FEEDBACK FORM TABLE */
+.feedback_table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	padding-top: 20px;
+	background-color: white;
+	width: 90%;
+}
+
+.feedback_table {
+	border: 2px solid black;
+}
+
+.feedback_table td,.feedback_table th {
+	padding: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: 1px solid black;
+	font-family: arial;
+	font-size: 13px;
+}
+
+.feedback_table th {
+	text-transform: uppercase;
+}
+
+.feedback_table th.sectionTitle {
+	text-align: left;
+	font-size: 15px;
+	padding-top: 10px;
+	background-color: rgb(196, 197, 201);
+	padding-left: 10px;
+}
+
+.feedback_table th.scaleOption {
+	background-color: rgb(51, 52, 55);
+	color: white;
+	font-size: 12px;
+	border: 1px solid white;
+}
+
+.feedback_table td.statement {
+	font-family: verdana;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.topMenu {
+	background-color: black;
+	text-align: center;
+	font-family: verdana;
+	font-size: 12px;
+	color: white;
+	cursor: pointer;
+}
+
+.topMenu:hover {
+	
+}
+
+.boxTitle {
+	color: black;
+	background: white;
+	font-family: verdana;
+	font-size: 8pt;
+}
+
+.time {
+	font-family: arial;
+	font-size: 8pt;
+	font-weight: bold;
+	color: white;
+}
+
+input[type=text].mediumText {
+	width: 250px;
+}
+
+input[type=text].longText {
+	width: 500px;
+}
+
+input[type=text].smallText {
+	font-size: 11px;
+	font-family: verdana;
+}
+
+.maroon {
+	color: maroon;
+}
+
+.validationErrors {
+	color: red;
+	font-style: italic;
+}
+
+.config {
+	margin: 0 auto;
+	width: 50%;
+	background: white;
+	padding: 5px;
+	border: 1px solid red;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: verdana;
+	text-align: center;
+}
+
+.error {
+	color: rgb(54, 96, 146);
+}
+
+.notificationTable {
+	background-color: rgb(9, 114, 165);
+	border: thin;
+	border-color: black;
+	border-style: solid;
+	width: 400px;
+	padding: 10px;
+	color: white;
+}
+
+.notificationTable a {
+	color: black;
+}
+
+.courseTitle {
+	background-color: rgb(9, 114, 165);
+	font-family: verdana, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	padding: 3px;
+}
