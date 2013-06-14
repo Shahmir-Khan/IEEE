@@ -12,5 +12,5 @@ package edu.ieee.lahoresection.ieeebnu.action;
  */
 public enum ActionName {
 
-	dashboard,logout
+	dashboard,logout,viewprojects
 }

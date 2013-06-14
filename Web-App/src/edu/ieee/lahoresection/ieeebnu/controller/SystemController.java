@@ -45,7 +45,9 @@ public class SystemController extends HttpServlet {
 			if (actionName.equals(ActionName.dashboard.toString())) {
 				action = new DashboardAction();
 
-			}else if(actionName.equals(ActionName.logout.toString())){
+			} else if(actionName.equals(ActionName.logout.toString())){
+				action = new LogoutAction();
+			} else if(actionName.equals(ActionName.logout.toString())){
 				action = new LogoutAction();
 			}
 
