@@ -15,7 +15,7 @@
 	    </div>   
 	    <div id="page">
 	    	<div id="content">
-				<div id="page_header">Course Registration System</div>							
+				<div id="page_header">IEEE Project Competitions</div>							
 				<div id="page_inner">
 				</div>
 			</div>

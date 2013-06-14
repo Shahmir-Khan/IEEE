@@ -6,7 +6,7 @@
 		<tr>
 			<td>
 				<ul class="modals">		
-					<li><a href="<%= request.getContextPath() %>/index.jsp">
+					<li><a href="<%= request.getContextPath() %>/dashboard.jsp">
 						<img src="<%= request.getContextPath() %>/images/icons/home.png"
 						width="36" height="36" alt="Home"><span>Home</span></a>
 					</li>
